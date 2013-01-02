@@ -9,6 +9,7 @@ package {
 	import flash.system.Worker;
 	import flash.system.WorkerDomain;
 	
+	[SWF(width = 600, height = 400, background = 0x91D6FD, frameRate = 30)]
 	public class Main extends Sprite {
 		
 		private var worker:Worker;
